@@ -16,6 +16,8 @@ c.execute("""CREATE TABLE IF NOT EXISTS UserDetails(
 
 # c.execute("INSERT INTO UserDetails(Userid, UserName, Password, Society_Name, Ph_number , Flat_number, Tower_number, Email_id , Vehicle_number_1, Vehicle_number_2)" Values())
 
+# c.execute("INSERT INTO ParkingSystem (Vehicle_number, Entry_Time) VALUES (?, ?)", (vehicle_number, now))
+
 # c.execute("""INSERT INTO UserDetails(Userid, UserName, Password, Society_Name, Ph_number , Flat_number, Tower_number, Email_id) Values("Pratyay111", "Pratyay", "admin@123", "Technica-ITSol", 9876543210, 501, "A1", "admin@technicaitsol.com")""")
 # c.execute("""INSERT INTO UserDetails(Userid, UserName, Password, Society_Name, Ph_number , Flat_number, Tower_number, Email_id) Values("Priyanshu111", "Priyanshu", "admin@123", "Technica-ITSol", 9876543210, 501, "A1", "admin@technicaitsol.com")""")
 # c.execute("""INSERT INTO UserDetails(Userid, UserName, Password, Society_Name, Ph_number , Flat_number, Tower_number, Email_id) Values("Arjun111", "Arjun", "admin@123", "Technica-ITSol", 9876543210, 501, "A1", "admin@technicaitsol.com")""")
